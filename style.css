@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+body > *{
+    width: 80%;
+    margin: auto;
+}
+header{
+    margin-bottom: 2%;
+}
+header img{
+    height: 70px;
+    border-right: 1px solid #878787;
+    padding-right: 10px;
+}
+nav{
+    margin-top: 20px;
+}
+nav ul{
+    padding: 0;
+    margin: 0;
+}
+nav li{
+    text-transform: uppercase;
+    color: #878787;
+    display: inline;
+    list-style: none;
+    margin-right: 10px;
+}
+nav li a{
+    text-decoration: none;
+}
+nav li a:hover{
+    text-decoration: underline;
+}
+.banner-1{
+    background-color: #e1d67a;
+    /* Da rimuovere la height */
+    height: 400px;
+    margin-bottom: 2%;
+}
+.section-2{
+    background-color: #0086ff;
+}
+.box-1{
+    background-color: #abcfe7;
+    margin-bottom: 2%;
+}
+.top-box{
+    /* Da rimuovere la height */
+    height: 60px;
+}
+.conteiner-1::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.conteiner-1 div{
+    float: left;
+    /* Da rimuovere la height */
+    height: 500px;
+}
+.lateral-box{
+    width: 20%;
+}
+.middle-box{
+    width: 58%;
+}
+.margin-r{
+    margin-right: 0.5%;
+}
+.margin-l{
+    margin-left: 0.5%;
+}    
+footer{
+    background-color: #8801fe;
+    /* Da rimuovere la height */
+    height: 50px;
+    margin-top: 0.5%;
+}
